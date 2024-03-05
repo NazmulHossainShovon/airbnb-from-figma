@@ -1,0 +1,26 @@
+.column-container {
+}
+.column-title {
+  /* text-base/Medium */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  /* identical to box height, or 24px */
+
+  /* black */
+  color: #000000;
+}
+.column-elements {
+  /* text-sm/Regular */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  /* gray/600 */
+  color: #4b5563;
+}

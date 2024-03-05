@@ -1,0 +1,9 @@
+.places-div {
+  /* Places */
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  position: absolute;
+  left: 70px;
+  top: 224px;
+}

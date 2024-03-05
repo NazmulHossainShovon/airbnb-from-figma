@@ -1,0 +1,23 @@
+.logo-container {
+  position: absolute;
+  width: 121px;
+  height: 37.67px;
+  left: 71px;
+  top: 29px;
+}
+.logo-text {
+  position: absolute;
+  width: 76px;
+  height: 29px;
+  left: 40px;
+  top: -10px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+
+  /* color-red */
+  color: #e0565b;
+}

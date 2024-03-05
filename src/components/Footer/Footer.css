@@ -1,0 +1,11 @@
+.footer-container {
+  background: #f9fafb;
+  display: flex;
+  flex-direction: column;
+  gap: 44px;
+  height: 230px;
+  padding: 64px 80px 24px 80px;
+  position: absolute;
+  top: 1181px;
+  width: 1187px;
+}

@@ -1,0 +1,43 @@
+.usermenu-container {
+  /* Rectangle 3 */
+
+  position: absolute;
+  left: 1200px;
+  width: 81px;
+  height: 40px;
+  top: 30px;
+
+  /* color-white */
+  background: #ffffff;
+  /* color-gray-light */
+  border: 1px solid #d0d0d0;
+  border-radius: 20px;
+}
+.avatar-menu-div {
+  display: flex;
+  padding: 1rem;
+  flex-direction: row;
+  gap: 0.75rem;
+  align-items: center;
+  border-radius: 9999px;
+  transition-property: background-color, border-color, color, fill, stroke,
+    opacity, box-shadow, transform;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 300ms;
+  cursor: pointer;
+  border-color: 1px;
+
+  @media (min-width: 768px) {
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+}
+.avatar-div {
+  display: none;
+
+  @media (min-width: 768px) {
+    display: block;
+  }
+}

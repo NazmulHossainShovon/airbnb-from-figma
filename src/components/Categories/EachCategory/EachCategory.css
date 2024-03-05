@@ -1,0 +1,11 @@
+.category-container {
+  height: 49px;
+  opacity: 50%;
+  width: 90px;
+}
+.category-name {
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14.52px;
+}

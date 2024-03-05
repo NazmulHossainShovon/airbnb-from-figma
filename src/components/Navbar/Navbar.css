@@ -1,0 +1,20 @@
+.navbar-div {
+  height: 96px;
+
+  /* color-white */
+  background: #ffffff;
+  /* color-gray-light */
+  border: 1px solid #d0d0d0;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+}
+.logo-search-usermenu-div {
+  display: flex;
+  flex-direction: row;
+  gap: 0.75rem;
+  justify-content: space-between;
+  align-items: center;
+
+  @media (min-width: 768px) {
+    gap: 0;
+  }
+}

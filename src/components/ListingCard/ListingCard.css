@@ -1,0 +1,58 @@
+.listing-card-container {
+  position: relative;
+
+  border-radius: 15px;
+  /* border: 1px solid red; */
+}
+.description-container {
+  margin-top: 16px;
+  height: 104px;
+  width: 169px;
+}
+.image {
+  border-radius: 15px;
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+.heart-button-container {
+  position: absolute;
+  top: 13px;
+  left: 264px;
+}
+.location-div {
+  width: 169px;
+  height: 22px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+
+  color: #000000;
+}
+
+.date-div {
+  position: relative;
+  width: 82px;
+  height: 19px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+
+  /* color-gray-dark */
+  color: #848282;
+}
+.price-container {
+  display: flex;
+  flex-direction: row;
+  gap: 0.25rem;
+  align-items: center;
+}
+.price-div {
+  font-weight: 600;
+}

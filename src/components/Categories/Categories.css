@@ -1,0 +1,12 @@
+.categories-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: absolute;
+  width: 800px;
+  height: 67px;
+  top: 120px;
+  left: 70px;
+
+  background: #ffffff;
+}
