@@ -26,3 +26,9 @@
 
   color: #000000;
 }
+
+@media (max-width: 640px) {
+  .taxes-container {
+    display: none;
+  }
+}

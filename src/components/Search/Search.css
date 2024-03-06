@@ -39,10 +39,6 @@
   line-height: 1.25rem;
   font-weight: 600;
   text-align: center;
-
-  @media (min-width: 640px) {
-    display: block;
-  }
 }
 .guest-search-icon-div {
   display: flex;
@@ -59,4 +55,11 @@
   padding: 0.5rem;
   border-radius: 9999px;
   /* color: #ffffff; */
+}
+
+@media (max-width: 640px) {
+  .search-container {
+    left: 15px;
+    width: 200px;
+  }
 }

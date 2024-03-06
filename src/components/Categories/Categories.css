@@ -10,3 +10,12 @@
 
   background: #ffffff;
 }
+
+@media (max-width: 640px) {
+  .categories-container {
+    gap: 10px;
+    left: 35px;
+    overflow-x: scroll;
+    width: 280px;
+  }
+}

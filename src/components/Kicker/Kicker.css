@@ -62,3 +62,10 @@
   /* gray/600 */
   color: #4b5563;
 }
+
+@media (max-width: 640px) {
+  .kicker-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+}

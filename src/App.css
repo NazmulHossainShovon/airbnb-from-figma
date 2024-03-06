@@ -7,3 +7,10 @@
   left: 70px;
   top: 224px;
 }
+
+@media (max-width: 640px) {
+  .places-div {
+    grid-template-columns: 1fr;
+    left: 35px;
+  }
+}

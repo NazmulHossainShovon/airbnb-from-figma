@@ -21,3 +21,9 @@
   /* color-red */
   color: #e0565b;
 }
+
+@media (max-width: 640px) {
+  .logo-container {
+    display: none;
+  }
+}

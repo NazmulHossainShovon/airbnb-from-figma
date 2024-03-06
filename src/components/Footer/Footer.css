@@ -9,3 +9,12 @@
   top: 1181px;
   width: 1187px;
 }
+
+@media (max-width: 640px) {
+  .footer-container {
+    height: 700px;
+    padding: 64px 20px 24px 20px;
+    top: 2800px;
+    width: 100%;
+  }
+}

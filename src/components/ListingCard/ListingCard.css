@@ -56,3 +56,13 @@
 .price-div {
   font-weight: 600;
 }
+
+@media (max-width: 640px) {
+  .listing-card-container,
+  .image {
+    width: 250px;
+  }
+  .heart-button-container {
+    left: 200px;
+  }
+}
